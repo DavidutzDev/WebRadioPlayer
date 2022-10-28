@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'dev.davidutz'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'javazoom:jlayer:1.0.1'
+}
+
+test {
+    useJUnitPlatform()
+}
